@@ -1,6 +1,6 @@
 ---
 name: ds-to-code
-description: Guia designers sem experiência em código desde a instalação do Storybook até visualizar componentes do Figma funcionando como um catálogo interativo. Use esta skill quando o designer chamar explicitamente com /figma-to-storybook ou pedir para iniciar o fluxo de configuração do Storybook com o Figma.
+description: Guia designers sem experiência em código desde a instalação do Storybook até visualizar componentes do Figma funcionando como um catálogo interativo. Use esta skill quando o designer chamar explicitamente com /ds-to-code ou pedir para iniciar o fluxo de configuração do Storybook com o Figma.
 ---
 
 # Figma → Storybook
