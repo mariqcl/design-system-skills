@@ -44,6 +44,26 @@ meu-projeto/
 
 Assim ela só aparece quando você abre o Claude Code nesse projeto. O nome `.claude/skills/` é fixo (é onde o Claude Code procura as skills), mas o projeto pode ser qualquer um seu.
 
+### Alternativa: colar a skill dentro do `CLAUDE.md`
+
+Se você quer que **uma** skill funcione sozinha, sem precisar digitar `/ds-to-code` nem `/use-ds`, dá pra colar ela direto no `CLAUDE.md` do projeto:
+
+1. Abra o arquivo `SKILL.md` da skill que você quer.
+2. Copie **todo** o conteúdo dele.
+3. Cole dentro do arquivo `CLAUDE.md` na raiz do seu projeto (se não existir, crie um com esse nome).
+
+Assim as instruções ficam **sempre ativas** naquele projeto, automaticamente.
+
+**Quando usar cada jeito:**
+
+| | Como skill (`.claude/skills/`) | Colado no `CLAUDE.md` |
+|---|---|---|
+| Quando age | Só quando você chama `/ds-to-code` ou `/use-ds` | O tempo todo, sozinha |
+| Precisa lembrar do comando? | Sim | Não |
+| Melhor para | Ter as duas skills juntas e manter a conversa leve | Usar **uma** skill de forma automática |
+
+> 💡 Não vale a pena colar as **duas** no `CLAUDE.md` ao mesmo tempo — fica grande e uma pode atrapalhar a outra. Para usar as duas, prefira o jeito de skill.
+
 ## Como usar
 
 - **Começando do zero?** Use `/ds-to-code` para configurar o Storybook e trazer seus componentes do Figma.
