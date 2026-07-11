@@ -11,19 +11,7 @@ As duas são pensadas para serem **didáticas**: explicam cada passo em linguage
 
 ## Como instalar
 
-Você **não precisa saber programar**. Escolha um dos dois jeitos:
-
-### Jeito fácil: peça pro Claude Code instalar 💬
-
-Abra o Claude Code e **cole esta mensagem**:
-
-> Instale as skills deste repositório na minha pasta de skills do Claude Code:
-> https://github.com/mariqcl/design-system-skills
-> Baixe as pastas `ds-to-code` e `use-ds` e coloque em `~/.claude/skills/`.
-
-Ele faz tudo pra você. Quando terminar, feche e abra o Claude Code de novo.
-
-### Jeito manual: baixar e arrastar 📦
+Você **não precisa saber programar**. É só baixar e arrastar:
 
 1. Nesta página do GitHub, clique no botão verde **`Code`** → **`Download ZIP`**.
 2. Descompacte o arquivo baixado (dê dois cliques nele).
