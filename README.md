@@ -11,8 +11,6 @@ As duas são pensadas para serem **didáticas**: explicam cada passo em linguage
 
 ## Como instalar
 
-Você **não precisa saber programar**. É só baixar e arrastar:
-
 1. Nesta página do GitHub, clique no botão verde **`Code`** → **`Download ZIP`**.
 2. Descompacte o arquivo baixado (dê dois cliques nele).
 3. Dentro dele há duas pastas: **`ds-to-code`** e **`use-ds`**. Copie as duas.
