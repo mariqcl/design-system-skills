@@ -27,6 +27,10 @@ As duas são pensadas para serem **didáticas**: explicam cada passo em linguage
 
 Pronto! Agora é só chamar `/ds-to-code` ou `/use-ds` dentro do Claude Code.
 
+### Quer usar as skills só em um projeto específico?
+
+Em vez da pasta do computador inteiro, você pode instalar dentro de um projeto só. Nesse caso, cole as pastas `ds-to-code` e `use-ds` em uma pasta chamada `.claude/skills/` na **raiz do projeto** — o mesmo lugar onde costuma ficar o arquivo `CLAUDE.md`. Assim as skills ficam disponíveis apenas quando você abre o Claude Code naquele projeto.
+
 ## Como usar
 
 - **Começando do zero?** Use `/ds-to-code` para configurar o Storybook e trazer seus componentes do Figma.
