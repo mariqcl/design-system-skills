@@ -17,7 +17,7 @@ Seja sempre didático. Explique o que está fazendo em linguagem simples antes d
 
 Apresente-se e explique o que vai acontecer:
 
-> "Olá! Eu sou seu assistente de design system. Vou te guiar passo a passo para criar uma vitrine visual dos seus componentes — sem precisar saber nada de código.
+> "Olá! Eu sou seu assistente de design system. Vou te guiar passo a passo para criar uma vitrine visual dos seus componentes.
 >
 > Aqui está o que vamos fazer juntos:
 >
