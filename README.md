@@ -14,9 +14,15 @@ As duas são pensadas para serem **didáticas**: explicam cada passo em linguage
 1. Nesta página do GitHub, clique no botão verde **`Code`** → **`Download ZIP`**.
 2. Descompacte o arquivo baixado (dê dois cliques nele).
 3. Dentro dele há duas pastas: **`ds-to-code`** e **`use-ds`**. Copie as duas.
-4. Cole as duas dentro da pasta `~/.claude/skills/` do seu computador.
-   - No Mac: abra o Finder, aperte `Cmd + Shift + G`, cole `~/.claude/skills/` e dê Enter.
-   - Se a pasta `skills` não existir, é só criar uma com esse nome.
+4. Cole as duas dentro da pasta de skills do Claude Code no seu computador:
+
+   **No Mac** 🍎
+   - Abra o **Finder**, aperte `Cmd + Shift + G`, cole `~/.claude/skills/` e dê Enter.
+
+   **No Windows** 🪟
+   - Abra o **Explorador de Arquivos**, clique na barra de endereço no topo, cole `%USERPROFILE%\.claude\skills\` e dê Enter.
+
+   > Se a pasta `skills` não existir, é só criar uma com esse nome dentro da pasta `.claude`.
 5. Feche e abra o Claude Code de novo.
 
 Pronto! Agora é só chamar `/ds-to-code` ou `/use-ds` dentro do Claude Code.
