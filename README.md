@@ -16,10 +16,10 @@ As duas são pensadas para serem **didáticas**: explicam cada passo em linguage
 3. Dentro dele há duas pastas: **`ds-to-code`** e **`use-ds`**. Copie as duas.
 4. Cole as duas dentro da pasta de skills do Claude Code no seu computador:
 
-   **No Mac** 🍎
+   **No Mac**
    - Abra o **Finder**, aperte `Cmd + Shift + G`, cole `~/.claude/skills/` e dê Enter.
 
-   **No Windows** 🪟
+   **No Windows**
    - Abra o **Explorador de Arquivos**, clique na barra de endereço no topo, cole `%USERPROFILE%\.claude\skills\` e dê Enter.
 
    > Se a pasta `skills` não existir, é só criar uma com esse nome dentro da pasta `.claude`.
@@ -37,12 +37,14 @@ Se você quer que **uma** skill funcione sozinha, sem precisar digitar `/ds-to-c
 
 Assim as instruções ficam **sempre ativas** naquele projeto, automaticamente.
 
-> 💡 Não vale a pena colar as **duas** no `CLAUDE.md` ao mesmo tempo — fica grande e uma pode atrapalhar a outra. Para usar as duas, prefira o jeito de skill.
+> Não vale a pena colar as **duas** no `CLAUDE.md` ao mesmo tempo — fica grande e uma pode atrapalhar a outra. Para usar as duas, prefira o jeito de skill.
 
 ## Como usar
 
 - **Começando do zero?** Use `/ds-to-code` para configurar o Storybook e trazer seus componentes do Figma.
 - **Já tem o Storybook rodando?** Use `/use-ds` para montar telas e protótipos reaproveitando o que já existe.
+
+> **Importante:** a `/use-ds` precisa ser usada no **terminal** (Claude Code no terminal), porque ela depende do **Storybook MCP** para ler os componentes existentes.
 
 ## Licença
 
