@@ -37,14 +37,6 @@ Se você quer que **uma** skill funcione sozinha, sem precisar digitar `/ds-to-c
 
 Assim as instruções ficam **sempre ativas** naquele projeto, automaticamente.
 
-**Quando usar cada jeito:**
-
-| | Como skill (`.claude/skills/`) | Colado no `CLAUDE.md` |
-|---|---|---|
-| Quando age | Só quando você chama `/ds-to-code` ou `/use-ds` | O tempo todo, sozinha |
-| Precisa lembrar do comando? | Sim | Não |
-| Melhor para | Ter as duas skills juntas e manter a conversa leve | Usar **uma** skill de forma automática |
-
 > 💡 Não vale a pena colar as **duas** no `CLAUDE.md` ao mesmo tempo — fica grande e uma pode atrapalhar a outra. Para usar as duas, prefira o jeito de skill.
 
 ## Como usar
