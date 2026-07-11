@@ -27,23 +27,6 @@ As duas são pensadas para serem **didáticas**: explicam cada passo em linguage
 
 Pronto! Agora é só chamar `/ds-to-code` ou `/use-ds` dentro do Claude Code.
 
-### Quer usar só em um projeto de trabalho?
-
-Você não precisa instalar as duas skills nem instalar para o computador inteiro. Dá pra colocar **só a `ds-to-code`** ou **só a `use-ds`** dentro de um projeto específico.
-
-Para isso, coloque a pasta da skill que você quer (`ds-to-code` **ou** `use-ds`) dentro de `.claude/skills/` na raiz do seu projeto de trabalho. Ex.:
-
-```
-meu-projeto/
-├── CLAUDE.md
-└── .claude/
-    └── skills/
-        └── use-ds/        ← só a skill que você quer
-            └── SKILL.md
-```
-
-Assim ela só aparece quando você abre o Claude Code nesse projeto. O nome `.claude/skills/` é fixo (é onde o Claude Code procura as skills), mas o projeto pode ser qualquer um seu.
-
 ### Alternativa: colar a skill dentro do `CLAUDE.md`
 
 Se você quer que **uma** skill funcione sozinha, sem precisar digitar `/ds-to-code` nem `/use-ds`, dá pra colar ela direto no `CLAUDE.md` do projeto:
