@@ -11,15 +11,29 @@ As duas são pensadas para serem **didáticas**: explicam cada passo em linguage
 
 ## Como instalar
 
-As skills ficam na pasta `~/.claude/skills/` da sua máquina. Para instalar:
+Você **não precisa saber programar**. Escolha um dos dois jeitos:
 
-```bash
-git clone https://github.com/<seu-usuario>/design-system-skills.git
-cp -r design-system-skills/ds-to-code ~/.claude/skills/
-cp -r design-system-skills/use-ds ~/.claude/skills/
-```
+### Jeito fácil: peça pro Claude Code instalar 💬
 
-Depois, dentro do Claude Code, é só chamar `/ds-to-code` ou `/use-ds`.
+Abra o Claude Code e **cole esta mensagem**:
+
+> Instale as skills deste repositório na minha pasta de skills do Claude Code:
+> https://github.com/mariqcl/design-system-skills
+> Baixe as pastas `ds-to-code` e `use-ds` e coloque em `~/.claude/skills/`.
+
+Ele faz tudo pra você. Quando terminar, feche e abra o Claude Code de novo.
+
+### Jeito manual: baixar e arrastar 📦
+
+1. Nesta página do GitHub, clique no botão verde **`Code`** → **`Download ZIP`**.
+2. Descompacte o arquivo baixado (dê dois cliques nele).
+3. Dentro dele há duas pastas: **`ds-to-code`** e **`use-ds`**. Copie as duas.
+4. Cole as duas dentro da pasta `~/.claude/skills/` do seu computador.
+   - No Mac: abra o Finder, aperte `Cmd + Shift + G`, cole `~/.claude/skills/` e dê Enter.
+   - Se a pasta `skills` não existir, é só criar uma com esse nome.
+5. Feche e abra o Claude Code de novo.
+
+Pronto! Agora é só chamar `/ds-to-code` ou `/use-ds` dentro do Claude Code.
 
 ## Como usar
 
